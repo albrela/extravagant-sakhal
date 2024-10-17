@@ -1,3 +1,4 @@
+# Ignore everything by default (github template)
 *.tar
 *.tar.*
 *.jar
@@ -11,3 +12,52 @@
 
 pkg/
 src/
+
+# ignore symbolic links
+*[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]
+
+# ignore storage directory
+mpmissions/dayzOffline.sakhal/storage_1
+
+# ignore steamapps directory
+steamapps
+server_manager
+
+# ignore addons directory
+addons
+
+# ignore battleeye directory
+battleye
+
+# ignore docs directory
+docs
+
+# ignore dta directory
+dta
+
+# ignore keys directory
+keys
+
+# ignore backup directorys
+profiles/VPPAdminTools/Backups
+
+# ignore logs directories
+profiles/CodeLock/Logs
+profiles/EventManagerLog
+profiles/ExpansionMod/Logs
+profiles/VPPAdminTools/Logging
+profiles/WebApiLog
+
+# ignore log files in /profiles
+profiles/*.log
+profiles/*.ADM
+profiles/*.RPT
+profiles/*.mdmp
+
+# ignore chache directory
+profiles/DataCache
+
+# ignore binaries and exceutables
+DayZServer
+steamclient.so
+mpmissions/dayzOffline.enoch/areaflags.map

@@ -908,7 +908,7 @@
         <flags deletable="0" init_random="0" remove_damaged="0"/>
         <position>player</position>
         <limit>mixed</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
             <child lootmax="0" lootmin="0" max="0" min="0" type="CraterellusMushroom"/>
         </children>
@@ -955,7 +955,7 @@
         <flags deletable="0" init_random="0" remove_damaged="0"/>
         <position>player</position>
         <limit>mixed</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
             <child lootmax="0" lootmin="0" max="0" min="0" type="SmallStone"/>
         </children>

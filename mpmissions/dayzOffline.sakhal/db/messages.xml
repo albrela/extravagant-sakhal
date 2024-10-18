@@ -44,33 +44,4 @@ Example messages:
     </message>
     -->
 
-    <!-- Add welcome message -->
-    <message>
-        <delay>2</delay>
-        <onconnect>1</onconnect>
-        <text>Welcome to the server #name</text>
-    </message>
-
-    <!-- Repeating info -->
-    <message>
-        <repeat>30</repeat>
-        <onconnect>1</onconnect>
-        <text>You're playing on my server (#name). Thank you!</text>
-    </message>
-
-    <!-- Repeating advertisement with shift delay -->
-    <message>
-        <delay>15</delay>
-        <repeat>30</repeat>
-        <onconnect>1</onconnect>
-        <text>Visit our discord at https://discord.gg/2Fn4epyUGy for checking the latest news, updates and server rules.</text>
-    </message>
-
-    <!-- Server shutdown message --> 
-    <message>
-        <deadline>720</deadline>
-        <shutdown>1</shutdown>
-        <text>#name will shutdown in #tmin minutes. Please finish your game and come back later.</text>
-    </message>
-
 </messages>

@@ -1,0 +1,388 @@
+{
+    "ConfigVersion": "6",
+    "Disable_Raiding_Tool": 0,
+    "Raid_Destory_Part_Time": 120,
+    "Enable_Destroy_Logs": 0,
+    "Window_Barricade_FireArm_Dmg": 100.0,
+    "Window_Barricade_Explosives_Dmg": 100.0,
+    "Window_Barricade_Melee_Dmg": 100.0,
+    "I": "Just a Spacer does Nothing",
+    "Door_Barricade_FireArm_Dmg": 100.0,
+    "Door_Barricade_Explosives_Dmg": 100.0,
+    "Door_Barricade_Melee_Dmg": 100.0,
+    "RuinCodelock": 0,
+    "Disable_Base_Damage": 0,
+    "UseCustomMaterialsList": 1,
+    "ConstructionMaterials": [
+        {
+            "ClassName": "BF_WindowBarricade",
+            "PartName": "base",
+            "Materials": [
+                {
+                    "SlotName": "Material_WoodenPlanks",
+                    "Quantity": 2
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 8
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_WindowBarricade",
+            "PartName": "step_one",
+            "Materials": [
+                {
+                    "SlotName": "Material_WoodenPlanks",
+                    "Quantity": 3
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 8
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_WindowBarricade",
+            "PartName": "step_two",
+            "Materials": [
+                {
+                    "SlotName": "Material_WoodenPlanks",
+                    "Quantity": 2
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 8
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_WindowBarricade",
+            "PartName": "step_three",
+            "Materials": [
+                {
+                    "SlotName": "Material_MetalSheets",
+                    "Quantity": 1
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 10
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_WindowBarricade",
+            "PartName": "step_four",
+            "Materials": [
+                {
+                    "SlotName": "Material_Shelter_FrameSticks",
+                    "Quantity": -1
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 2
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_WindowBarricade",
+            "PartName": "step_five",
+            "Materials": [
+                {
+                    "SlotName": "Material_WoodenPlanks",
+                    "Quantity": 2
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 8
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_WindowBarricadeMed",
+            "PartName": "a_base",
+            "Materials": [
+                {
+                    "SlotName": "Material_WoodenPlanks",
+                    "Quantity": 6
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 8
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_WindowBarricadeMed",
+            "PartName": "b_stage_one",
+            "Materials": [
+                {
+                    "SlotName": "Material_WoodenPlanks",
+                    "Quantity": 6
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 8
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_WindowBarricadeMed",
+            "PartName": "c_stage_two",
+            "Materials": [
+                {
+                    "SlotName": "Material_WoodenPlanks",
+                    "Quantity": 6
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 8
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_WindowBarricadeMed",
+            "PartName": "d_stage_three",
+            "Materials": [
+                {
+                    "SlotName": "Material_MetalSheets",
+                    "Quantity": 2
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 8
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_WindowBarricadeMed",
+            "PartName": "f_stage_four",
+            "Materials": [
+                {
+                    "SlotName": "Material_MetalSheets",
+                    "Quantity": 2
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 8
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_DoorBarricade",
+            "PartName": "a_base",
+            "Materials": [
+                {
+                    "SlotName": "Material_WoodenLogs",
+                    "Quantity": 2
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_DoorBarricade",
+            "PartName": "b_lower_frame",
+            "Materials": [
+                {
+                    "SlotName": "Material_Shelter_Sticks",
+                    "Quantity": 5
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 4
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_DoorBarricade",
+            "PartName": "b_upper_frame",
+            "Materials": [
+                {
+                    "SlotName": "Material_Shelter_Sticks",
+                    "Quantity": 5
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 4
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_DoorBarricade",
+            "PartName": "c_outer_lower_planks",
+            "Materials": [
+                {
+                    "SlotName": "Material_WoodenPlanks",
+                    "Quantity": 5
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 8
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_DoorBarricade",
+            "PartName": "c_outer_upper_planks",
+            "Materials": [
+                {
+                    "SlotName": "Material_WoodenPlanks",
+                    "Quantity": 5
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 8
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_DoorBarricade",
+            "PartName": "d_lower_outer_finalplanks",
+            "Materials": [
+                {
+                    "SlotName": "Material_WoodenPlanks",
+                    "Quantity": 4
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 6
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_DoorBarricade",
+            "PartName": "d_upper_outer_finalplanks",
+            "Materials": [
+                {
+                    "SlotName": "Material_WoodenPlanks",
+                    "Quantity": 4
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 6
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_DoorBarricade",
+            "PartName": "e_outer_lower_plate",
+            "Materials": [
+                {
+                    "SlotName": "Material_MetalSheets",
+                    "Quantity": 1
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 6
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_DoorBarricade",
+            "PartName": "e_outer_upper_plate",
+            "Materials": [
+                {
+                    "SlotName": "Material_MetalSheets",
+                    "Quantity": 1
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 6
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_DoorBarricade",
+            "PartName": "f_inner_lower_planks",
+            "Materials": [
+                {
+                    "SlotName": "Material_WoodenPlanks",
+                    "Quantity": 5
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 5
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_DoorBarricade",
+            "PartName": "f_inner_upper_planks",
+            "Materials": [
+                {
+                    "SlotName": "Material_WoodenPlanks",
+                    "Quantity": 5
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 5
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_DoorBarricade",
+            "PartName": "g_inner_lower_plate",
+            "Materials": [
+                {
+                    "SlotName": "Material_MetalSheets",
+                    "Quantity": 1
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 5
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_DoorBarricade",
+            "PartName": "g_inner_upper_plate",
+            "Materials": [
+                {
+                    "SlotName": "Material_MetalSheets",
+                    "Quantity": 1
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 5
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_DoorBarricade",
+            "PartName": "i_hindges",
+            "Materials": [
+                {
+                    "SlotName": "Material_MetalWire",
+                    "Quantity": -1
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_DoorBarricade",
+            "PartName": "h_barricade_holders",
+            "Materials": [
+                {
+                    "SlotName": "Material_WoodenPlanks",
+                    "Quantity": 1
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 4
+                }
+            ]
+        },
+        {
+            "ClassName": "BF_DoorBarricade",
+            "PartName": "h_middle_holder",
+            "Materials": [
+                {
+                    "SlotName": "Material_WoodenPlanks",
+                    "Quantity": 1
+                },
+                {
+                    "SlotName": "Material_Nails",
+                    "Quantity": 2
+                }
+            ]
+        }
+    ]
+}

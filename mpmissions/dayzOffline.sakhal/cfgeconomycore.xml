@@ -37,11 +37,11 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	</defaults>
 	<ce folder="cust">
 		<!-- Extravagant vanilla modding -->
-		<file name="x_vanilla_types.xml" type="types"/>
+		<!-- <file name="x_vanilla_types.xml" type="types"/>
 		<file name="x_vanilla_cfgspawnabletypes.xml" type="cfgspawnabletypes"/>
 		<file name="x_vanilla_globals.xml" type="globals"/>
 		<file name="x_vanilla_economy.xml" type="economy"/>
-		<file name="x_vanilla_events.xml" type="events"/>
+		<file name="x_vanilla_events.xml" type="events"/> -->
 		<file name="x_vanilla_messages.xml" type="messages"/>
 	</ce>
 </economycore>

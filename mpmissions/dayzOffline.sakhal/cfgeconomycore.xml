@@ -43,5 +43,8 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="x_vanilla_economy.xml" type="economy"/>
 		<file name="x_vanilla_events.xml" type="events"/> -->
 		<file name="x_vanilla_messages.xml" type="messages"/>
+		<file name="x_bf_types.xml" type="types"/> <!-- BuildingFortificaations -->
+		<file name="x_codelock_types.xml" type="types"/> <!-- CodeLock -->
+		<file name="x_aws_types.xml" type="types"/> <!-- AdvancedWeaponScopes -->
 	</ce>
 </economycore>

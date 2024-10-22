@@ -46,5 +46,6 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="x_bf_types.xml" type="types"/> <!-- BuildingFortificaations -->
 		<file name="x_codelock_types.xml" type="types"/> <!-- CodeLock -->
 		<file name="x_aws_types.xml" type="types"/> <!-- AdvancedWeaponScopes -->
+		<file name="x_wsc_types.xml" type="types"/> <!-- WindstridesClothingPack -->
 	</ce>
 </economycore>

@@ -61,3 +61,4 @@ profiles/DataCache
 DayZServer
 steamclient.so
 mpmissions/dayzOffline.enoch/areaflags.map
+profiles/VPPAdminTools/ConfigurablePlugins/ItemManager/SavedItemPresets.vpp

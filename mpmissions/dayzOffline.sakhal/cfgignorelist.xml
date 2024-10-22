@@ -19,4 +19,7 @@
 	<type name="Spear"></type>
 	<type name="Mag_STANAGCoupled_30Rnd"></type>
 	<type name="Wreck_Mi8"></type>
+	<!-- Combinaton Locks-->
+	<type name="CombinationLock"></type>
+	<type name="CombinationLock4"></type>
 </ignore>

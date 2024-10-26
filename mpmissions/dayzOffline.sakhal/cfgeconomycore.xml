@@ -37,15 +37,18 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	</defaults>
 	<ce folder="cust">
 		<!-- Extravagant vanilla modding -->
-		<!-- <file name="x_vanilla_types.xml" type="types"/>
-		<file name="x_vanilla_cfgspawnabletypes.xml" type="cfgspawnabletypes"/>
-		<file name="x_vanilla_globals.xml" type="globals"/>
-		<file name="x_vanilla_economy.xml" type="economy"/>
-		<file name="x_vanilla_events.xml" type="events"/> -->
+		<file name="x_vanilla_types.xml" type="types"/>
+		<file name="x_vanilla_cfgspawnabletypes.xml" type="spawnabletypes"/>
+		<!-- <file name="x_vanilla_globals.xml" type="globals"/> -->
+		<!-- <file name="x_vanilla_economy.xml" type="economy"/> -->
+		<!-- <file name="x_vanilla_events.xml" type="events"/> --> 
 		<file name="x_vanilla_messages.xml" type="messages"/>
-		<file name="x_bf_types.xml" type="types"/> <!-- BuildingFortificaations -->
+		
+		<!-- Custom modding -->
 		<file name="x_codelock_types.xml" type="types"/> <!-- CodeLock -->
 		<file name="x_aws_types.xml" type="types"/> <!-- AdvancedWeaponScopes -->
 		<file name="x_wsc_types.xml" type="types"/> <!-- WindstridesClothingPack -->
+		<file name="x_bf_types.xml" type="types"/> <!-- BuildingFortificaations -->
+		<file name="x_ft_types.xml" type="types"/> <!-- FlipTransport -->
 	</ce>
 </economycore>

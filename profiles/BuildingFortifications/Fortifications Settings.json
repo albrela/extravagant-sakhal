@@ -2,7 +2,7 @@
     "ConfigVersion": "6",
     "Disable_Raiding_Tool": 0,
     "Raid_Destory_Part_Time": 120,
-    "Enable_Destroy_Logs": 0,
+    "Enable_Destroy_Logs": 1,
     "Window_Barricade_FireArm_Dmg": 100.0,
     "Window_Barricade_Explosives_Dmg": 100.0,
     "Window_Barricade_Melee_Dmg": 100.0,

@@ -1,0 +1,11 @@
+<types>
+    <!-- Overwritings of vanilla combinations locks -->
+    <type name="CombinationLock">
+        <nominal>0</nominal>
+        <min>0</min>
+    </type>
+    <type name="CombinationLock4">
+        <nominal>0</nominal>
+        <min>0</min>
+    </type>
+</types>

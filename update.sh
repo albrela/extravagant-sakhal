@@ -16,6 +16,7 @@
 +workshop_download_item 221100 2291785308 \
 +workshop_download_item 221100 2291785437 \
 +workshop_download_item 221100 2116157322 \
++workshop_download_item 221100 2536888090 \
 +workshop_download_item 221100 3354590436 \
 +quit
 
@@ -36,6 +37,7 @@ rm /home/dayz/servers/dayz-sakhal/2545327648
 rm /home/dayz/servers/dayz-sakhal/2291785308
 rm /home/dayz/servers/dayz-sakhal/2291785437
 rm /home/dayz/servers/dayz-sakhal/2116157322
+rm /home/dayz/servers/dayz-sakhal/2536888090
 rm /home/dayz/servers/dayz-sakhal/3354590436
 rm /home/dayz/servers/dayz-sakhal/keys/Jacob_Mango_V3.bikey # 1559212036
 rm /home/dayz/servers/dayz-sakhal/keys/NotABananaV3.bikey # 1565871491
@@ -50,6 +52,9 @@ rm /home/dayz/servers/dayz-sakhal/keys/Inkota.bikey # 2143128974
 rm /home/dayz/servers/dayz-sakhal/keys/dab.bikey # 2276010135, 2545327648
 rm /home/dayz/servers/dayz-sakhal/keys/affenb3rtV2.bikey # 2833363308
 rm /home/dayz/servers/dayz-sakhal/keys/Extravagant.bikey # 3354590436
+rm /home/dayz/servers/dayz-sakhal/keys/Building-Fortifications.bikey # 2670506982
+rm /home/dayz/servers/dayz-sakhal/Keys/RUS67pak.bikey # 2536888090
+rm /home/dayz/servers/dayz-sakhal/keys/affenb3rtV2.bikey # 2833363308
 
 
 # Add links to the mods
@@ -69,6 +74,7 @@ ln -s /home/dayz/servers/dayz-sakhal/steamapps/workshop/content/221100/254532764
 ln -s /home/dayz/servers/dayz-sakhal/steamapps/workshop/content/221100/2291785308 /home/dayz/servers/dayz-sakhal/2291785308 # DayZ-Expansion-Core
 ln -s /home/dayz/servers/dayz-sakhal/steamapps/workshop/content/221100/2291785437 /home/dayz/servers/dayz-sakhal/2291785437 # DayZ-Expansion-Vehicles
 ln -s /home/dayz/servers/dayz-sakhal/steamapps/workshop/content/221100/2116157322 /home/dayz/servers/dayz-sakhal/2116157322 # DayZ-Expansion-Licensed
+ln -s /home/dayz/servers/dayz-sakhal/steamapps/workshop/content/221100/2536888090 /home/dayz/servers/dayz-sakhal/2536888090 # RUS67pak
 ln -s /home/dayz/servers/dayz-sakhal/steamapps/workshop/content/221100/3354590436 /home/dayz/servers/dayz-sakhal/3354590436 # Extravagant Sakhal Edits
 
 # Keys
@@ -89,7 +95,8 @@ ln -s /home/dayz/servers/dayz-sakhal/steamapps/workshop/content/221100/267050698
 #ln -s /home/dayz/servers/dayz-sakhal/steamapps/workshop/content/221100/2545327648/keys/* /home/dayz/servers/dayz-sakhal/keys/ # Dabs Framework
 ln -s /home/dayz/servers/dayz-sakhal/steamapps/workshop/content/221100/2291785308/keys/* /home/dayz/servers/dayz-sakhal/keys/ # DayZ-Expansion-Core
 ln -s /home/dayz/servers/dayz-sakhal/steamapps/workshop/content/221100/2833363308/keys/* /home/dayz/servers/dayz-sakhal/keys/ # ViewInventoryAnimation
-ln -s /home/dayz/servers/dayz-sakhal/steamapps/workshop/content/221100/2833363308/keys/* /home/dayz/servers/dayz-sakhal/keys/ # ViewInventoryAnimation
+ln -s /home/dayz/servers/dayz-sakhal/steamapps/workshop/content/221100/2291785437/keys/* /home/dayz/servers/dayz-sakhal/keys/ # DayZ-Expansion-Vehicles
+ln -s /home/dayz/servers/dayz-sakhal/steamapps/workshop/content/221100/2536888090/Keys/* /home/dayz/servers/dayz-sakhal/keys/ # RUS67pak
 ln -s /home/dayz/servers/dayz-sakhal/steamapps/workshop/content/221100/3354590436/keys/* /home/dayz/servers/dayz-sakhal/keys/ # Extravagant Sakhal Edits
 
 

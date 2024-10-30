@@ -62,11 +62,11 @@
 			"disableIsCollidingBBoxCheck": true,
 			"disableIsCollidingPlayerCheck": true,
 			"disableIsClippingRoofCheck": true,
-			"disableIsBaseViableCheck": false,
+			"disableIsBaseViableCheck": true,
 			"disableIsCollidingGPlotCheck": false,
 			"disableIsCollidingAngleCheck": true,
 			"disableIsPlacementPermittedCheck": true,
-			"disableHeightPlacementCheck": false,
+			"disableHeightPlacementCheck": true,
 			"disableIsUnderwaterCheck": false,
 			"disableIsInTerrainCheck": true,
 			"disallowedTypesInUnderground": ["FenceKit","TerritoryFlagKit","WatchtowerKit"]

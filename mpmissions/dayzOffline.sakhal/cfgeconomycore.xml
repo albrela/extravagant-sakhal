@@ -39,7 +39,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<!-- Extravagant vanilla modding -->
 		<file name="x_vanilla_types.xml" type="types"/>
 		<file name="x_vanilla_cfgspawnabletypes.xml" type="spawnabletypes"/>
-		<!-- <file name="x_vanilla_globals.xml" type="globals"/> -->
+		<file name="x_vanilla_globals.xml" type="globals"/>
 		<!-- <file name="x_vanilla_economy.xml" type="economy"/> -->
 		<!-- <file name="x_vanilla_events.xml" type="events"/> --> 
 		<file name="x_vanilla_messages.xml" type="messages"/>
@@ -50,5 +50,6 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="x_wsc_types.xml" type="types"/> <!-- WindstridesClothingPack -->
 		<file name="x_bf_types.xml" type="types"/> <!-- BuildingFortificaations -->
 		<file name="x_ft_types.xml" type="types"/> <!-- FlipTransport -->
+		<file name="x_bl_types.xml" type="types"/> <!-- Boomlay's Things -->
 	</ce>
 </economycore>

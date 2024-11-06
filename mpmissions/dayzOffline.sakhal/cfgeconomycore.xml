@@ -51,5 +51,6 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="x_bf_types.xml" type="types"/> <!-- BuildingFortificaations -->
 		<file name="x_ft_types.xml" type="types"/> <!-- FlipTransport -->
 		<file name="x_bl_types.xml" type="types"/> <!-- Boomlay's Things -->
+		<file name="x_spu_types.xml" type="types"/> <!-- Spurgle's Bagz -->
 	</ce>
 </economycore>

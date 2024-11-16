@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- imported from: https://github.com/ExpansionModTeam/DayZ-Expansion-Missions/blob/master/Template/Chernarus/expansion_ce/expansion_spawnabletypes.xml -->
+
+<types>
+
+    <type name="ExpansionGyrocopter">
+        <attachments chance="1.00">
+            <item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="SparkPlug" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="ExpansionHydraulicHoses" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HeadlightH7" chance="1.00" />
+        </attachments>
+    </type>
+
+    <type name="ExpansionBigGyrocopter">
+        <attachments chance="1.00">
+            <item name="ExpansionHelicopterBattery" chance="0.60" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="SparkPlug" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="ExpansionHydraulicHoses" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HeadlightH7" chance="1.00" />
+        </attachments>
+    </type>
+
+</types>

@@ -8,6 +8,7 @@
 		<event name="AnimalSheep" />
 		<event name="AnimalWolf" />
 		<event name="InfectedArmy" />
+		<event name="InfectedArmyWesternMercenarys" />
 		<event name="InfectedCity" />
 		<event name="InfectedCityTier1" />
 		<event name="InfectedFirefighter" />
@@ -555,4 +556,21 @@
 				<pos x="13637.857422" z="11797.294922" />
 				<pos x="13922.100586" z="11941.990234" />
 		</event>
+
+		<!-- X Custom Vehicles -->
+
+		<event name= "VehicleGyroHelicopter">
+			<pos x="12865.830078" z="9444.384766" />
+			<pos x="8801.108398" z="12780.466797" />
+			<pos x="7506.093262" z="9683.453125" />
+		</event>
+
+		<!-- X Custom Events -->
+
+		<!-- Private Russian Plane Crash Site -->
+		<event name="StaticPlaneCrashMercenary">
+			<zone smin="1" smax="1" dmin="1" dmax="1" r="0" />
+			<pos x="7159.11" z="7318.68" a="0" y="4.44136" group="Plane_Crashed_DudinoAF"/> <!-- Dudino Airfield -->
+		</event>
+		
 </eventposdef>

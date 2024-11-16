@@ -82,6 +82,9 @@ class CustomMission: MissionServer
 		{
 			SetRandomHealth( itemClothing );
 			
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "ChernarusMap" );
+			player.SetQuickBarEntityShortcut(itemEnt, 3);
+			
 			itemEnt = itemClothing.GetInventory().CreateInInventory( "BandageDressing" );
 			player.SetQuickBarEntityShortcut(itemEnt, 2);
 			
@@ -93,6 +96,7 @@ class CustomMission: MissionServer
 			itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
 			SetRandomHealth( itemEnt );
 			player.SetQuickBarEntityShortcut(itemEnt, 1);
+
 		}
 		
 		itemClothing = player.FindAttachmentBySlotName( "Legs" );

@@ -4,4 +4,25 @@
         <child type="StaticObj_FrozenScientist_DE" spawnsecondary="false" x="0.0" z="0.0" a="0"/>
         <child type="ScientificBriefcase" spawnsecondary="false" x="0.7" z="-1.25" a="180"/>
     </group>
+
+    <!--<pos x="7159.11" z="7318.68" a="0" y="4.44136" group="Wreck_An2_Crashed"/> Dudino Airfield-->
+	<group name="Plane_Crashed_DudinoAF">
+		<child type="bldr_Decal_dirt_damage_long1" deloot="0" lootmax="3" lootmin="1" x="0" z="0" y="0" a="355.558"/>
+		<child type="bldr_misc_cover_big" deloot="0" lootmax="3" lootmin="1" x="-1.1001" z="3.83984" y="-1.78123" a="87.314"/>
+		<child type="bldr_misc_cover_big" deloot="0" lootmax="3" lootmin="1" x="1.06006" z="3.6499" y="-1.75124" a="257.506"/>
+		<child type="StaticObj_Misc_BoxWooden" deloot="0" lootmax="3" lootmin="1" x="-3.42969" z="15.0996" y="-1.49551" a="25.925"/>
+		<child type="StaticObj_Furniture_box_c" deloot="0" lootmax="3" lootmin="1" x="0.970215" z="7.92969" y="-1.65732" a="0"/>
+		<child type="Land_Static_An2" deloot="0" lootmax="3" lootmin="1" x="1.14014" z="-2.89014" y="-2.39726" a="357.998"/>
+		<child type="bldr_Decal_dirt_damage_long1" deloot="0" lootmax="3" lootmin="1" x="-0.0698242" z="4.5498" y="0" a="174.413"/>
+		<child type="StaticObj_Misc_WoodenCrate" deloot="0" lootmax="3" lootmin="1" x="5.79004" z="-1.03027" y="-1.66728" a="26.9993"/>
+		<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="3" lootmin="1" x="3.47021" z="12.9399" y="-1.61728" a="135.001"/>
+		<child type="bldr_metalcrate" deloot="0" lootmax="3" lootmin="1" x="-5.10986" z="5.97998" y="-1.60958" a="31.5139"/>
+		<child type="bldr_misc_cover_big" deloot="0" lootmax="3" lootmin="1" x="7.75" z="-1.31006" y="-2.08125" a="93.7391"/>
+		<child type="bldr_misc_cover_small" deloot="0" lootmax="3" lootmin="1" x="0.709961" z="-5.36035" y="-1.32511" a="180"/>
+		<child type="bldr_misc_cover_big" deloot="0" lootmax="3" lootmin="1" x="0.930176" z="-2.41016" y="-1.61375" a="260.861"/>
+		<child type="StaticObj_Roads_Partpath_dirt_30" deloot="0" lootmax="3" lootmin="1" x="-0.779785" z="6.67969" y="-1.77686" a="173.214"/>
+		<child type="bldr_misc_cover_small" deloot="0" lootmax="3" lootmin="1" x="0.380371" z="-0.0102539" y="-1.53261" a="0"/>
+		<child type="StaticObj_Wreck_Decal_Small1_NoLC_DE" deloot="0" lootmax="3" lootmin="1" x="3.93018" z="-4.81006" y="-1.77367" a="234"/>
+	</group>
+
 </eventgroupdef>

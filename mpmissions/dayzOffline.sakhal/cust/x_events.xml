@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<events>
+    <event name="VehicleGyroHelicopter">
+        <nominal>2</nominal>
+        <min>1</min>
+        <max>2</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="0" min="50" type="ExpansionGyrocopter"/>
+            <child lootmax="0" lootmin="0" max="0" min="50" type="ExpansionBigGyrocopter"/>
+        </children>
+    </event>
+    <!-- 
+    Example event of a static plane crash with a scientist and loot.
+
+    <event name="StaticPlaneCrash">
+        <nominal>3</nominal>
+        <min>0</min>
+        <max>0</max>
+        <lifetime>2100</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>1000</distanceradius>
+        <cleanupradius>1000</cleanupradius>
+        <secondary>InfectedArmy</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="15" lootmin="10" max="3" min="1" type="Wreck_Mi8_Crashed"/>
+        </children>
+    </event>
+
+    Example event of a static scientist.
+
+    <event name="StaticScientist">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>0</max>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <saferadius>300</saferadius>
+        <distanceradius>300</distanceradius>
+        <cleanupradius>300</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children/>
+    </event>
+ -->
+
+    <event name="InfectedArmyWesternMercenarys">
+        <nominal>10</nominal>
+        <min>6</min>
+        <max>10</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1" />
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <!-- <child lootmax="5" lootmin="0" max="0" min="50" type="ZmbM_MercenaryPilotOld_Olive" /> -->
+            <!-- <child lootmax="5" lootmin="0" max="0" min="50" type="ZmbM_usMercenary_Officer_Desert" /> -->
+            <!-- temporary use of InfectedArmyConvoy -->
+            <child lootmax="5" lootmin="0" max="0" min="40" type="ZmbM_PatrolNormal_Autumn"/>
+            <child lootmax="5" lootmin="0" max="0" min="15" type="ZmbM_SoldierNormal"/>
+            <child lootmax="5" lootmin="0" max="5" min="10" type="ZmbM_usSoldier_Officer_Convoy"/>
+            <child lootmax="5" lootmin="0" max="0" min="35" type="ZmbM_usSoldier_normal_Woodland"/>        </children>
+    </event>
+
+    <event name="StaticPlaneCrashMercenary">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>0</max>
+        <lifetime>2100</lifetime> <!-- Helicrash Vanilla use 2100 -->
+        <restock>0</restock>
+        <saferadius>1000</saferadius> <!-- Helicrash Vanilla use 1000 -->
+        <distanceradius>1000</distanceradius> <!-- Helicrash Vanilla use 1000 -->
+        <cleanupradius>1000</cleanupradius> <!-- Helicrash Vanilla use 1000 -->
+        <secondary>InfectedArmyWesternMercenarys</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0" />
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="15" lootmin="10" max="1" min="1" type="Wreck_An2_Crashed" />
+        </children>
+    </event>
+
+
+</events>

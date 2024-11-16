@@ -271,9 +271,9 @@
 
 <!-- RECOMMENDATION: Reduce the Amount of NailBoxes by 1 per 2 pallets. (with default settings) -->
 
-  <!-- <type name="bl_pallet">
+   <type name="bl_pallet">
     <nominal>40</nominal>
-    <min>30</min>
+    <min>20</min> <!--default=30-->
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -284,11 +284,11 @@
     <tag name="floor" />
     <usage name="Industrial" />
     <usage name="Farm" />
-  </type> -->
+  </type>
 
   <type name="bl_paint_tube">
     <nominal>30</nominal>
-    <min>25</min>
+    <min>20</min> <!--default=25-->
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -304,13 +304,10 @@
   </type>
 
 
-
-
-
   <!-- No decorations -->
 
-  <!-- <type name="bl_cercestis_mirabilis">
-    <nominal>3</nominal>
+   <type name="bl_cercestis_mirabilis">
+    <nominal>4</nominal> <!-- <nominal>3</nominal> -->
     <min>2</min>
     <lifetime>1209600</lifetime>
     <restock>0</restock>
@@ -326,7 +323,7 @@
   </type>
 
   <type name="bl_dieffenbachia">
-    <nominal>3</nominal>
+    <nominal>4</nominal> <!-- <nominal>3</nominal> -->
     <min>2</min>
     <lifetime>1209600</lifetime>
     <restock>0</restock>
@@ -342,7 +339,7 @@
   </type>
 
   <type name="bl_monstera">
-    <nominal>3</nominal>
+    <nominal>4</nominal> <!-- <nominal>3</nominal> -->
     <min>2</min>
     <lifetime>1209600</lifetime>
     <restock>0</restock>
@@ -358,7 +355,7 @@
   </type>
 
   <type name="bl_ficus_bonsai">
-    <nominal>3</nominal>
+    <nominal>4</nominal> <!-- <nominal>3</nominal> -->
     <min>2</min>
     <lifetime>1209600</lifetime>
     <restock>0</restock>
@@ -371,7 +368,7 @@
     <usage name="Village" />
     <usage name="Town" />
     <usage name="Farm" />
-  </type> -->
+  </type> 
 
   
 
@@ -381,8 +378,8 @@
   <!-- Even if you allow crafting, you can still use prefab kits via Trader or let them Spawn.
   It's up to you. -->
 
-  <!-- <type name="bl_anatolian_carpet_1_Kit">
-    <nominal>4</nominal>
+   <type name="bl_anatolian_carpet_1_Kit">
+    <nominal>4</nominal> <!--default=0-->
     <min>3</min>
     <lifetime>14400</lifetime>
     <restock>0</restock>
@@ -396,9 +393,10 @@
     <usage name="Town" />
     <usage name="Farm" />
   </type>
+
 
   <type name="bl_anatolian_carpet_2_Kit">
-    <nominal>4</nominal>
+    <nominal>4</nominal> <!--default=0-->
     <min>3</min>
     <lifetime>14400</lifetime>
     <restock>0</restock>
@@ -412,7 +410,7 @@
     <usage name="Town" />
     <usage name="Farm" />
   </type>
-
+<!--
   <type name="bl_pallet_cabinet_s_Kit">
     <nominal>3</nominal>
     <min>2</min>
